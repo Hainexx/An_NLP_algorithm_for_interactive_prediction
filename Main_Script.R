@@ -26,7 +26,7 @@ close(con2)
 close(con3)
 rm(con, con2, con3)
 
-
+#manage the corpus 
 corpus <- rbind(blogs,news,twitter)
 corpus <- corpus(corpus)
 corpus
